@@ -25,4 +25,11 @@ INNER JOIN jogador jogador1 ON jogador1.id = partidas.jogador1_id
 INNER JOIN jogador jogador2 ON jogador2.id = partidas.jogador2_id;
 ```
 
-7 - Código, Obs: 
+7 - Código, Algumas observações a respeito da implementação:
+
+Mudanças que gostaria de ter aplicado, mas pela proximidade da deadline não foram realizadas nessa iteração:
+- Utilização de algum framework mais versátil - sugestão NextJs;
+- Utilização de alguma engine de css ao invés de plain css - sugestão styled;
+- Utilização de uma component library na intenção de compartimentar melhor os componentes - sugestão Mantine;
+- Melhorar o sistema de filtro;
+- Implementar visualmente o sistema de filtros fora da navbar;
